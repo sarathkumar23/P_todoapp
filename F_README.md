@@ -14,18 +14,18 @@ This service is written in NodeJS, Hence need to install NodeJS in the system.
 Let's download the HTDOCS content and deploy under the Nginx path.
 
     # cd /var/www/html
-    # mkdir sample 
-    # cd /var/www/html/sample
+    # mkdir todoapp 
+    # cd /var/www/html/todoapp
     # git clone https://github.com/zelar-soft-todoapp/frontend.git
-    # cd /var/www/html/sample/frontend
+    # cd /var/www/html/todoapp/frontend
     # npm install
     # npm start
 
 Update Login and todo Ip address.
 
-      # cd /var/www/html/sample/frontend
+      # cd /var/www/html/todoapp/frontend
       # cd config
-      # vi index.js
+      # vim index.js
 
 Finally restart the service once to effect the changes.
 
